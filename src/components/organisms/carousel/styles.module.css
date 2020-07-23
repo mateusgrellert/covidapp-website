@@ -1,0 +1,99 @@
+.carousel {
+  position: relative;
+  width: 98vw;
+  max-width: 1080px;
+  height: 550px;
+  margin: auto;
+  transform: translateY(-10%);
+  transform: translateX(-4%);
+
+  @media (--break-mobile) {
+    height: 500px;
+  }
+}
+
+.carouselContent {
+  display: flex;
+  width: 100%;
+}
+
+.carouselItem {
+  min-width: 60%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+  transition: all 500ms;
+
+  @media (--break-mobile) {
+    min-width: 80%;
+  }
+}
+
+.first,
+.second,
+.third {
+  display: block;
+}
+
+.first {
+  left: 50%;
+  transform: translate(-100%, -50%) scale(0.8);
+
+  @media (--break-mobile) {
+    display: none;
+  }
+}
+
+.second {
+  left: 49%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.third {
+  left: 50%;
+  transform: translate(0%, -50%) scale(0.8);
+
+  @media (--break-mobile) {
+    display: none;
+  }
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+}
+
+.arrowLeft {
+  left: 0;
+}
+
+.arrowRight {
+  right: 0;
+}
+
+.thumbs {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.thumb {
+  width: 15px;
+  height: 15px;
+  border: 2px solid var(--color-dark-blue);
+  border-radius: 100%;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.thumbActive {
+  background-color: var(--color-dark-blue);
+}

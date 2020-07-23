@@ -1,0 +1,16 @@
+.subtitle {
+  font-size: var(--font-size-large);
+  font-weight: bold;
+
+  @media (--break-mobile) {
+    font-size: var(--font-size-root);
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}

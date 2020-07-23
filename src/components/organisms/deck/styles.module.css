@@ -1,0 +1,15 @@
+.deck {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (--break-mobile) {
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+
+.teammateCard {
+  margin-bottom: 50px;
+  flex-grow: 1;
+}

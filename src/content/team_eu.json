@@ -1,0 +1,64 @@
+{
+  "team": [
+    {
+      "name": "Antonio Romano Tech",
+      "file": "antonio_romano_tech.png"
+    },
+    {
+      "name": "Bruna Rodrigues",
+      "file": "bruna_rodrigues_design.jpg"
+    },
+    {
+      "name": "Carlo Martini",
+      "file": "carlo_martini.png"
+    },
+    {
+      "name": "Domenico Lupinetti",
+      "file": "domenico_lupinetti_backend.png"
+    },
+    {
+      "name": "Elena Martina",
+      "file": "elena_martina_mobile_android.jpg"
+    },
+    {
+      "name": "Enrico Lucia",
+      "file": "Enrico_Lucia_Frontend.jpg"
+    },
+    {
+      "name": "Federico Ricciuti",
+      "file": "Federico_Ricciuti_frontend.jpg"
+    },
+    {
+      "name": "Francesco Bonarota",
+      "file": "Francesco_Bonarota_Mobile_Android.png"
+    },
+    {
+      "name": "Francesco Consentino",
+      "file": "francesco_cosentino_mobile_ios.jpg"
+    },
+    {
+      "name": "Gerta Salillari",
+      "file": "gerta_salillari_management.jpeg"
+    },
+    {
+      "name": "Luca Mastrostefano",
+      "file": "luca_mastrostefano_management.jpeg"
+    },
+    {
+      "name": "Luca Vallarelli",
+      "file": "Luca_Vallarelli_Communication.jpg"
+    },
+    {
+      "name": "Marco Capuano",
+      "file": "Marco_Capuano_mobile_android.jpg"
+    },
+    {
+      "name": "Neil Kakkar",
+      "file": "Neil_Kakkar_mobile_ios.jpg"
+    },
+    {
+      "name": "Robert Killick",
+      "file": "robert_killick_backend.jpg"
+    }
+  ]
+}

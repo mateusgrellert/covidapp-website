@@ -1,0 +1,10 @@
+.item > p {
+  position: absolute;
+  top: 100%;
+  color: transparent;
+  transition: color 300ms;
+}
+
+.activeItem > p {
+  color: var(--color-black);
+}

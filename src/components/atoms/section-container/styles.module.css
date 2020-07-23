@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  max-width: 100%;
+  background-color: var(--background-secundary);
+  color: var(--color-black);
+
+  &:not(.clean) {
+    padding: 5% 5%;
+
+    @media (--break-mobile) {
+      padding: 5% 5%;
+    }
+  }
+}
+
+.primary {
+  background-color: var(--background-primary);
+  color: var(--color-white);
+}

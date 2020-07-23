@@ -1,0 +1,77 @@
+{
+  "team": [
+    {
+      "name": "Jônata Tyska",
+      "file": "jtyska.png",
+      "description": "Jônata Tyska Carvalho é doutor em Computação, com ênfase em robótica e inteligência artificial, pela Plymouth University, no Reino Unido. É professor e pesquisador na UFSC onde trabalha nas áreas de robótica, inteligência artificial e análise de dados. É também pesquisador associado ao Istituto di Scienze e Tecnologie Cognitive de Roma, instituto de pesquisa vinculado ao Consiglio Nazionale delle Ricerche (CNR) Italiano, colaborando em pesquisas na área de inteligência artificial. Possui experiência de mais de 10 anos atuando em projetos de pesquisa e desenvolvimento tecnológico.",
+      "href": "http://lattes.cnpq.br/9494364044256921"
+    },
+    {
+      "name": "Vania Bogorny",
+      "file": "vania.jpg",
+      "description": "Vania Bogorny é doutora em Ciência da Computação pela UFRGS e professora e pesquisadora da UFSC há mais de 10 anos, com pós-doutorados na Bélgica e na França. Sua área de pesquisa é na área de Ciência de Dados e Inteligência Artificial. Desde 2006 trabalha com bancos de dados geográficos, mineração de dados, e desenvolvimento de algoritmos para análise de dados espaciais, temporais e espaço-temporais, com foco em trajetórias de  objetos móveis. Já participou de 2 projetos europeus em análise de dados de trajetórias e atualmente é coordenadora pela UFSC no projeto europeu H2020 MASTER (Multiple Aspect Trajectory Management and Analysis)",
+      "href": "http://lattes.cnpq.br/9045199822095908"
+    },
+    {
+      "name": "Luis Otavio Alvares",
+      "file": "luis.jpg",
+      "description": "Luis Otavio Alvares é doutor em Informática pela Université Joseph-Fourier, França, e foi por mais de 30 anos professor e pesquisador na UFRGS e UFSC, com pós-doutorados na França e na Bélgica. Suas áreas de pesquisa são em Inteligência Artificial e Ciência de Dados, com ênfase em métodos de clustering e classificação para dados espaço-temporais e em análise de trajetórias. Tem mais de 100 artigos científicos publicados em revistas e congressos.",
+      "href": "http://lattes.cnpq.br/5655194264112797"
+    },
+    {
+      "name": "Mateus Grellert",
+      "file": "mateus-grellert.jpg",
+      "description": "Mateus Grellert recebeu título de Doutor em Computação pela Universidade Federal do Rio Grande do Sul em 2018. Atualmente atua como Professor Adjunto A na Universidade Federal de Santa Catarina (UFSC). Suas áreas de pesquisa são em Sistemas Embarcados e Machine Learning, com ênfase em projeto digital para Machine Learning e para processamento de Vídeo e Imagem, bem como em Machine Learning aplicado. Tem mais de 40 artigos científicos publicados em revistas e congressos.",
+      "href": "http://lattes.cnpq.br/8492676368144613"
+    },
+    {
+      "name": "Diego Almeida de Oliveira",
+      "file": "diego.jpg"
+    },
+    {
+      "name": "Adson Pereira Leal",
+      "file": "adson.png"
+    },
+    {
+      "name": "Michela Limaco",
+      "file": "michela.jpg",
+      "description": "Michela Limaco é doutoranda em Engenharia de Automação e Sistemas, Mestre em Mecatrônica pelo IFSC, especialista em Java com as certificações de Associate, Programmer e Web Developer. E é diretora técnica e analista de sistemas na empresa L2CV onde desenvolve soluções para o segmento de Internet das Coisas.",
+      "href": "http://www.l2cv.com.br/"
+    },
+    {
+      "name": "Sarah Barros",
+      "file": "sarah.jpg",
+      "description": "Sarah Barros é bacharela em design gráfico pela Universidade do Estado de Santa Catarina e atua como UI/UX Designer. Com experiência em projetos voltados para a população geral, acredita na inclusão digital para todas as pessoas e procura projetar interfaces acessíveis.",
+      "href": "https://www.linkedin.com/in/barrosarah"
+    },
+    {
+      "name": "Rodolfo Lottin Pereira",
+      "file": "rodolfo.jpg",
+      "href": "https://www.linkedin.com/in/rodolfolottin/"
+    },
+    {
+      "name": "Catarina Schein",
+      "file": "catarina.png",
+      "href": "https://www.linkedin.com/in/catarinaschein/"
+    },
+    {
+      "name": "Benjamin William Mezger",
+      "file": "ben.png",
+      "href": "https://www.linkedin.com/in/benmezger/"
+    },
+    {
+      "name": "Guilherme Lucas",
+      "file": "guilu.png"
+    },
+    {
+      "name": "Thiago Goulart",
+      "file": "thiago.jpg"
+    },
+    {
+      "name": "Mateus Bueno Ferreira",
+      "file": "eu.jpg",
+      "href": "https://www.linkedin.com/in/matt-ferreira/",
+      "description": "Mateus Bueno é um Fullstack Web Developer com foco em desenvolvimento de Frontend. Mateus valoriza muito diversidade e inclusão e se considera um ativista tecnológico."
+    }
+  ]
+}

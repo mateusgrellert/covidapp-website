@@ -1,0 +1,9 @@
+.text {
+  color: inherit;
+  text-align: center;
+  font-size: var(--font-size-root);
+
+  @media (--break-mobile) {
+    font-size: var(--font-size-medium);
+  }
+}

@@ -1,0 +1,16 @@
+.downArrow {
+  transition: transform 160ms linear;
+}
+
+.active,
+.up {
+  transform: rotate(-180deg);
+}
+
+.left {
+  transform: rotate(90deg);
+}
+
+.right {
+  transform: rotate(-90deg);
+}

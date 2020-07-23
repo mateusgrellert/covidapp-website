@@ -1,0 +1,69 @@
+import React, { useState } from 'react'
+import classnames from 'classnames'
+import { useStaticQuery, graphql } from 'gatsby'
+
+import { BurgerButton, Logo, Link } from '_atoms'
+import DropdownMenu from '_molecules/dropdown-menu'
+
+import styles from './styles.module.css'
+
+const Navbar = () => {
+  const [navlistActive, setNavListActive] = useState(false)
+
+  const { site } = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            contact
+          }
+        }
+      }
+    `
+  )
+  const onClickBurger = () => setNavListActive(!navlistActive)
+
+  return (
+    <header className={styles.navbar}>
+      <div className={styles.navbarContent}>
+        <Logo />
+        <BurgerButton
+          onClick={onClickBurger}
+          active={navlistActive}
+          className={styles.responsiveMenu}
+        />
+      </div>
+      <nav>
+        <ul className={classnames(styles.navList, { [styles.active]: navlistActive })}>
+          <li>
+            <DropdownMenu label="sobre">
+<<<<<<< HEAD
+              <Link to="about-app">Conheça o CovidApp</Link>
+              <Link to="next">Próximos passos</Link>
+=======
+              <Link className={styles.nestedLink} to="/app">
+                Conheça o CovidApp
+              </Link>
+              <Link className={styles.nestedLink} to="/next">
+                Próximos passos
+              </Link>
+>>>>>>> 7e9d2f92d228c78253203b12ec2a46e72b741b64
+            </DropdownMenu>
+          </li>
+          <li>
+            <Link className={styles.menuLink} to="/team">
+              A Equipe
+            </Link>
+          </li>
+          <li>
+            <Link className={styles.menuLink} href={`mailto:${site.siteMetadata.contact}`}>
+              Contato
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  )
+}
+
+export default Navbar

@@ -1,0 +1,28 @@
+.policy {
+    background-color: var(--background-secondary);
+    padding: 0;
+    margin: 0;
+}
+  
+.termsText {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.termsSubtitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.termsTitle {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+OL > li{
+    margin-bottom: 10px;
+}
+  
+.termsURL{
+    margin-left: 2em;
+}

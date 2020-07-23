@@ -1,0 +1,29 @@
+.aboutApp {
+  background-color: var(--background-secondary);
+}
+
+.aboutAppText {
+  text-align: justify;
+  margin: 40px 0 50px;
+  border-left: 4px solid var(--color-light-green);
+  padding: 0 30px;
+}
+
+.aboutAppBtn {
+  padding: 10px 15px;
+  background-color: var(--color-dark-blue);
+  border-radius: 10px;
+  color: var(--color-white);
+  margin: auto;
+  display: block;
+  width: 112px;
+  text-align: center;
+}
+
+.contentText {
+  text-align: left;
+}
+
+.wrapper {
+  margin-bottom: 50px;
+}

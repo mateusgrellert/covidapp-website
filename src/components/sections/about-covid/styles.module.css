@@ -1,0 +1,75 @@
+.aboutCovid {
+  height: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("/banner.png");
+  background-size: cover;
+  border-bottom: solid;
+  border-bottom-width: thin;
+  border-bottom-color: var(--color-green);
+
+  @media (--break-mobile) {
+    flex-direction: column;
+    height: 250px;
+  }
+
+  @media (--break-medium) {
+    background: unset;
+    background-color: var(--color-detail);
+    height: 400px;
+  }
+}
+
+.heroContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutCovidText,
+.aboutCovidTip {
+  font-size: var(--font-size-large);
+
+  @media (--break-medium) {
+    color: var(--color-white);
+  }
+}
+
+.aboutCovidText {
+  border-left: 4px solid var(--color-primary);
+  padding-left: 20px;
+  text-align: justify;
+  width: 302px;
+  min-width: 302px;
+}
+
+.aboutCovidTitle {
+  width: 420px;
+  min-width: 420px;
+  text-transform: uppercase;
+  padding: 5%;
+  text-align: center;
+  color: var(--color-white);
+
+  @media (--break-mobile) {
+    min-width: unset;
+    width: unset;
+  }
+
+  & > span {
+    background-color: var(--color-primary);
+  }
+}
+
+.aboutCovidTip {
+  text-align: justify;
+  margin-left: 24px;
+}
+
+@media (--break-medium) {
+  .screenBanner {
+    display: none !important;
+  }
+}

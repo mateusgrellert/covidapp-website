@@ -1,0 +1,94 @@
+.card {
+  width: var(--card-base-width);
+  height: var(--card-base-width);
+  border-radius: 100%;
+  position: relative;
+  flex-direction: column;
+  transition: box-shadow 300ms;
+  margin: 10px 40px;
+}
+
+.hero {
+  width: var(--card-base-width);
+  height: var(--card-base-width);
+  border-radius: 100%;
+  overflow: hidden;
+  box-shadow: var(--box-shadow-default);
+  transition: box-shadow 300ms;
+  z-index: 2;
+
+  &:hover {
+    box-shadow: var(--box-shadow-hover);
+  }
+}
+
+.descriptionActive {
+  z-index: 3;
+}
+
+.cardLink {
+  color: var(--color-black);
+
+  & .hero,
+  & .descriptionActive {
+    cursor: pointer;
+  }
+}
+
+.descriptionActive > .hero,
+.descriptionActive > .hero:hover {
+  box-shadow: unset;
+}
+
+.description {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  width: 98vw;
+  max-width: calc(var(--card-base-width) * 2);
+  padding: 10px;
+  border-radius: 10px;
+  top: -10px;
+  left: 50%;
+  transform: translate(-50%);
+  border: 1px solid transparent;
+  transition: all 300ms;
+  cursor: auto;
+}
+
+.descriptionText {
+  text-align: justify;
+  margin-top: 10px;
+  tab-size: 8;
+  color: transparent;
+  transition: color 300ms;
+  padding: 0 20px;
+}
+
+.link {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 20px;
+  opacity: 0;
+  transition: opacity 300ms;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.card:hover > .descriptionActive {
+  background-color: var(--color-white);
+  border-color: var(--color-light-green);
+  box-shadow: var(--box-shadow-hover);
+
+  & > .link {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  & > .descriptionText {
+    color: var(--color-black);
+  }
+}

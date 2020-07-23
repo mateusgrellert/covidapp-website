@@ -1,0 +1,7 @@
+.hero {
+  background-color: var(--color-white);
+  border: var(--border-default);
+  border-radius: 20px;
+  margin-top: 50px;
+  max-width: 1300px;
+}

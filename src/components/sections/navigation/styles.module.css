@@ -1,0 +1,13 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+
+  @media (--break-mobile) {
+    flex-direction: column;
+    height: 700px;
+  }
+}

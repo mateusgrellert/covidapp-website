@@ -1,0 +1,12 @@
+.inputWrapper {
+  position: relative;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.label {
+  position: absolute;
+  bottom: 100%;
+  margin: 0;
+  margin-bottom: 10px;
+}

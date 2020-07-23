@@ -1,0 +1,48 @@
+.contact {
+  width: 100vw;
+  border-style: solid none none none;
+  border-color: var(--color-light-green);
+  background-color: var(--color-gray);
+
+  &:not(.clean) {
+    padding: 20px 5%;
+  }
+}
+
+.contactText {
+  text-align: left;
+}
+
+.contactTitle {
+  text-transform: uppercase;
+}
+
+.contactText,
+.contactTitle,
+.contactSubtitle {
+  color: var(--color-dark-blue);
+  width: 100%;
+  @media (--break-mobile) {
+    text-align: center;
+  }
+}
+
+.contactText{
+  font-size: large;
+  vertical-align: center;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  align-items: center;
+
+  @media (--break-medium) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (--break-mobile) {
+    grid-template-columns: 1fr;
+  }
+}

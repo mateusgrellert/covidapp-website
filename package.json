@@ -1,0 +1,120 @@
+{
+  "name": "covidapp-cms",
+  "version": "1.0.0",
+  "description": "Landing page for CovidApp",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gatsby develop -p 3000",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "stylelint": "stylelint .",
+    "eslint": "eslint .",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matbueno/covid-combat-web.git"
+  },
+  "keywords": [
+    "covid19",
+    "covid",
+    "coronavirus",
+    "covid app",
+    "covidapp"
+  ],
+  "author": "Mateus Bueno (@matbueno)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fundacaoaprisco/nohs-somos-cms/issues"
+  },
+  "homepage": "https://github.com/fundacaoaprisco/nohs-somos-cms.git",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "classnames": "^2.2.6",
+    "express": "^4.17.1",
+    "gatsby": "^2.24.2",
+    "gatsby-background-image": "^1.0.1",
+    "gatsby-image": "^2.2.37",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-google-analytics": "^2.2.2",
+    "gatsby-plugin-htaccess": "^1.4.0",
+    "gatsby-plugin-intl": "^0.3.3",
+    "gatsby-plugin-layout": "^1.0.14",
+    "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-netlify-cms": "^4.1.33",
+    "gatsby-plugin-no-javascript": "^2.0.5",
+    "gatsby-plugin-postcss": "^2.0.7",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-source-filesystem": "^2.0.28",
+    "gatsby-transformer-sharp": "^2.4.2",
+    "intersection-observer": "^0.7.0",
+    "netlify-cms": "^2.9.0",
+    "node": "^14.5.0",
+    "normalize.css": "^8.0.1",
+    "prettier": "^2.0.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "react-toast-notifications": "^2.4.0",
+    "use-media": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@storybook/addon-actions": "^5.0.10",
+    "@storybook/addon-info": "^5.0.10",
+    "@storybook/addon-knobs": "^5.0.10",
+    "@storybook/addon-links": "^5.2.0",
+    "@storybook/addons": "^5.0.10",
+    "@storybook/react": "^5.0.10",
+    "autoprefixer": "^9.5.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^3.4.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-import-resolver-webpack": "^0.12.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "file-loader": "^5.0.2",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.1.1",
+    "postcss-css-variables": "^0.14.0",
+    "postcss-custom-media": "^7.0.8",
+    "postcss-global-import": "^1.0.6",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.1.2",
+    "postcss-preset-env": "^6.6.0",
+    "pretty-quick": "^2.0.1",
+    "style-loader": "^1.0.2",
+    "stylelint": "^13.2.1",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "pretty-quick",
+      "yarn eslint"
+    ],
+    "*.css": [
+      "yarn stylelint"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn eslint && yarn stylelint"
+    }
+  }
+}

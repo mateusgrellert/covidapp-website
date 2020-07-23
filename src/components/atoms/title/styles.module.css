@@ -1,0 +1,17 @@
+.title {
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-weight-semi-bold);
+  color: inherit;
+
+  @media (--break-mobile) {
+    font-size: var(--font-size-xl);
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
