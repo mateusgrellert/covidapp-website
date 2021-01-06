@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/fundacaoaprisco/nohs-somos-cms.git",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "express": "^4.17.1",
     "gatsby": "^2.24.2",
